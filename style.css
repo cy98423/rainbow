@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: white;
+}
+.rainbow {
+  height: 200px;
+  overflow: hidden;
+  margin: 50px 0 0 50px;
+}
+
+.rainbow div {
+  overflow: hidden;
+  /* 取消margin合并 */
+}
+
+.rainbow > div {
+  width: 400px;
+  height: 400px;
+  background: red;
+  border-radius: 50%;
+}
+
+.rainbow > div > div {
+  width: 360px;
+  height: 360px;
+  background: hsl(60, 80%, 50%);
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.rainbow > div > div > div {
+  width: 320px;
+  height: 320px;
+  background: hsl(120, 80%, 50%);
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.rainbow > div > div > div > div {
+  width: 280px;
+  height: 280px;
+  background: hsl(180, 80%, 50%);
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.rainbow > div > div > div > div > div {
+  width: 240px;
+  height: 240px;
+  background: hsl(240, 80%, 50%);
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.rainbow > div > div > div > div > div > div {
+  width: 200px;
+  height: 200px;
+  background: hsl(300, 80%, 50%);
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.rainbow > div > div > div > div > div > div > div {
+  width: 160px;
+  height: 160px;
+  background: hsl(330, 80%, 50%);
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.rainbow > div > div > div > div > div > div > div > div {
+  width: 120px;
+  height: 120px;
+  background: hsl(0, 80%, 100%);
+  margin: 20px;
+  border-radius: 50%;
+}
